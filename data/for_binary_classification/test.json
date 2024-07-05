@@ -1,0 +1,23 @@
+{
+  "ID72": {
+    "Description": "Pyroptosis is a highly inflammatory form of lytic programmed cell death that occurs most frequently upon infection with intracellular pathogens and is likely to form part of the antimicrobial response. Pyroptosis can take place in immune cells and is also reported to occur in keratinocytes and some epithelial cells. Formation of pores causes cell membrane rupture and release of cytokines, as well as various damage-associated molecular pattern (DAMP) molecules such as HMGB-1, ATP and DNA, out of the cell. These molecules recruit more immune cells and further perpetuate the inflammatory cascade in the tissue.",
+    "Gold_Entity": [
+      {
+        "id": "http://purl.obolibrary.org/obo/GO_0070269",
+        "name": "pyroptosis"
+      },
+      {
+        "id": "http://purl.bioontology.org/ontology/HOIP/HOIP_0041937",
+        "name": "binding of pattern recognition receptor to DAMPs"
+      },
+      {
+        "id": "http://purl.obolibrary.org/obo/GO_0035915",
+        "name": "pore formation in membrane of other organism"
+      },
+      {
+        "id": "http://purl.bioontology.org/ontology/HOIP/HOIP_0041386",
+        "name": "release of DAMP molecules by cell rupture"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ID58": {
+    "Description": "NETosis is likely initiated by both direct (through angiotensin-converting enzyme 2, serine protease, virus replication, and PAD-4 (157)) and indirect (through activated platelets and COVID-19-triggered cytokines and chemokines which stimulate NETosis (158)) mechanisms. This results in enhanced coagulation with decreases in lymphocyte counts, an abundance of inflammatory myeloid cells, endothelial cell damage, thrombus formation, and ensuing fibrosis, all of which is associated with a poor COVID-19 prognosis (97, 134, 141, 159).",
+    "Gold_Entity": [
+      {
+        "id": "http://purl.obolibrary.org/obo/GO_0006915",
+        "name": "apoptotic process"
+      },
+      {
+        "id": "http://purl.bioontology.org/ontology/HOIP/HOIP_0000225",
+        "name": "cellular damage"
+      }
+    ]
+  }
+}

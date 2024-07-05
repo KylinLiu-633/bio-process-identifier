@@ -1,0 +1,15 @@
+{
+  "ID117": {
+    "Description": "Within 19 days after symptom onset, 100% of patients tested positive for antiviral immunoglobulin-G (IgG). Seroconversion for IgG and IgM occurred simultaneously or sequentially.",
+    "Gold_Entity": [
+      {
+        "id": "http://purl.obolibrary.org/obo/GO_0016064",
+        "name": "immunoglobulin mediated immune response"
+      },
+      {
+        "id": "http://purl.obolibrary.org/obo/GO_0002377",
+        "name": "immunoglobulin production"
+      }
+    ]
+  }
+}
