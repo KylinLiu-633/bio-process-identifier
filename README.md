@@ -8,8 +8,11 @@ Put your data in the "../data/for_binary_classification" folder, and the naming 
 the folder after you download HOIP dataset.
 
 We have tried 3 pretrained language model,
+
 BioBERT: "dmis-lab/biobert-v1.1"
-PubMedBERT:
+
+PubMedBERT: "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext"
+
 SciBERT: "allenai/scibert_scivocab_uncased"
 
 Default hyperparameters:
@@ -55,13 +58,13 @@ The model output is organized in a json file, while each line is in a format lik
 
 The model outputs are stored in "scripts/logs/model-name".
 
-Please complete the file "../data/meta/entityid_to_label.json" after you download the HOIP dataset.
+Please complete the file "../data/meta/entityid_to_label.json" after downloading the HOIP dataset.
 
 Then enter in "../scripts/utils".
 
 Run the command, will output the predictions of every file in the log_dir to the output_dir.
 
 ```commandline
-python post_for_bi_cls.py -log_dir ../logs/model-name -output_dir ../../data/after_binary_classification/biobert-8
+python post_for_bi_cls.py -log_dir ../logs/model-name -output_dir ../../data/after_binary_classification/model-name
 ```
 
