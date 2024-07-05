@@ -1,6 +1,6 @@
 # Mention-agnostic biological process identification
 
-This depositary is for process identification according to the HOIP ontology on the HOIP dataset.
+This program is for process identification according to the HOIP ontology on the HOIP dataset.
 
 ## Binary classifier based on BERT
 
